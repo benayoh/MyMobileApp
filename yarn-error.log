@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\PowerShell\6-preview;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Redis\;C:\Program Files (x86)\PuTTY\;C:\Program Files\PuTTY\;C:\Program Files\PowerShell\6.0.3\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Mr Onazi\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mr Onazi\AppData\Local\Android\Sdk\tools;C:\Users\Mr Onazi\Desktop\google-cloud-sdk\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Mr Onazi\Anaconda3;C:\Users\Mr Onazi\Anaconda3\Library\mingw-w64\bin;C:\Users\Mr Onazi\Anaconda3\Library\usr\bin;C:\Users\Mr Onazi\Anaconda3\Library\bin;C:\Users\Mr Onazi\Anaconda3\Scripts;C:\Users\Mr Onazi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Mr Onazi\AppData\Local\Programs\Python\Python37\;C:\Users\Mr Onazi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Users\Mr Onazi\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\Mr Onazi\AppData\Local\Yarn\bin;C:\Users\Mr Onazi\AppData\Roaming\npm;C:\Program Files\JetBrains\PhpStorm 2019.1.3\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.4.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130217:19)
+      at Object.onceWrapper (events.js:284:20)
+      at ClientRequest.emit (events.js:196:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:682:40)
+      at Object.onceWrapper (events.js:284:20)
+      at TLSSocket.emit (events.js:196:13)
+      at TLSSocket.Socket._onTimeout (net.js:432:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "click-on-test",
+    "version": "0.0.1",
+    "author": "Ionic Framework",
+    "homepage": "https://ionicframework.com/",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "~8.1.2",
+      "@angular/compiler": "~8.1.2",
+      "@angular/core": "~8.1.2",
+      "@angular/forms": "~8.1.2",
+      "@angular/platform-browser": "~8.1.2",
+      "@angular/platform-browser-dynamic": "~8.1.2",
+      "@angular/router": "~8.1.2",
+      "@ionic-native/core": "^5.0.0",
+      "@ionic-native/splash-screen": "^5.0.0",
+      "@ionic-native/status-bar": "^5.0.0",
+      "@ionic/angular": "^4.7.1",
+      "core-js": "^2.5.4",
+      "rxjs": "~6.5.1",
+      "tslib": "^1.9.0",
+      "zone.js": "~0.9.1"
+    },
+    "devDependencies": {
+      "@angular-devkit/architect": "~0.801.2",
+      "@angular-devkit/build-angular": "~0.801.2",
+      "@angular-devkit/core": "~8.1.2",
+      "@angular-devkit/schematics": "~8.1.2",
+      "@angular/cli": "~8.1.2",
+      "@angular/compiler": "~8.1.2",
+      "@angular/compiler-cli": "~8.1.2",
+      "@angular/language-service": "~8.1.2",
+      "@ionic/angular-toolkit": "~2.0.0",
+      "@types/jasmine": "~3.3.8",
+      "@types/jasminewd2": "~2.0.3",
+      "@types/node": "~8.9.4",
+      "codelyzer": "^5.0.0",
+      "jasmine-core": "~3.4.0",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~4.1.0",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-coverage-istanbul-reporter": "~2.0.1",
+      "karma-jasmine": "~2.0.1",
+      "karma-jasmine-html-reporter": "^1.4.0",
+      "protractor": "~5.4.0",
+      "ts-node": "~7.0.0",
+      "tslint": "~5.15.0",
+      "typescript": "~3.4.3"
+    },
+    "description": "An Ionic project"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
